@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nonebot-plugin-hbr-nanase"
+version = "0.0.1"
+description = "Heaven Burns Red"
+authors = ["Taoism DeepLake","Shiina-Yukari"]
+license = "MIT License"
+readme = "README.md"
+homepage = "https://github.com/TaoismDeepLake/hbr_nanase"
+repository = "https://github.com/TaoismDeepLake/hbr_nanase"
+documentation = "https://github.com/TaoismDeepLake/hbr_nanase"
+
+dependencies = [
+    "nonebot2",
+    "nonebot-adapter-onebot",
+    "hoshino",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot2 = "^2.0.0-beta.4"
+nonebot-adapter-onebot = "^2.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
