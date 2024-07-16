@@ -13,6 +13,10 @@ dependencies = [
     "nonebot2",
     "nonebot-adapter-onebot",
     "hoshino",
+    "opencc",
+    "fuzzywuzzy",
+    "jaconv",
+    "pandas",
 ]
 
 [tool.poetry.dependencies]
